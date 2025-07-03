@@ -2503,7 +2503,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so",
             ],
             shared_libs: [
-                "libshim_camera_metadata",
+                "libcamera_metadata_shim",
                 "libmtkcam_device3_hidl",
                 "liblog",
                 "libutils-v32",
