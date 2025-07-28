@@ -408,11 +408,8 @@ PRODUCT_PACKAGES += \
     libaurisysdemo \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
-    libbluetooth_hw_test \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
-    libbluetooth_relayer \
-    libbluetoothem_mtk \
     libbt-vendor \
     libc++_shared \
     libcam.seninfn3d \
@@ -985,10 +982,8 @@ PRODUCT_PACKAGES += \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
     vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
-    autobt \
     bip \
     bip_ap \
-    bt_dump \
     ccci_mdinit \
     ccci_rpcd \
     fuelgauged \
