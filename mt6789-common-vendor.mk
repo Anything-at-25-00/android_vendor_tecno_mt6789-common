@@ -123,7 +123,6 @@ PRODUCT_PACKAGES += \
     VP9SecureVdecCA \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
     libAVCSecureVencCA \
-    libadpcmdec_mtk \
     libaedv \
     libbwc \
     libccci_util \
@@ -134,7 +133,6 @@ PRODUCT_PACKAGES += \
     libion_ulit \
     libipsec_ims_shr \
     libladder \
-    libmp3dec_mtk \
     libmtkcutils \
     libmtkproperty \
     libmtkrillog \
@@ -436,11 +434,6 @@ PRODUCT_PACKAGES += \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_apedec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
     libcomposer_ext \
