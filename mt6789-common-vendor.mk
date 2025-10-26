@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789-common/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/tecno/mt6789-common/proprietary/vendor/etc/init/trustonic.mc_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.mc_kmsetkey_ca.rc \
     vendor/tecno/mt6789-common/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
-    vendor/tecno/mt6789-common/proprietary/vendor/etc/init/v3avpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/v3avpud.rc \
     vendor/tecno/mt6789-common/proprietary/vendor/etc/init/vendor.fptool.fingerprint@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.fptool.fingerprint@2.0-service.rc \
     vendor/tecno/mt6789-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/tecno/mt6789-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
@@ -118,52 +117,26 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/mt6789-common/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg
 
 PRODUCT_PACKAGES += \
-    AVCSecureVdecCA \
-    HEVCSecureVdecCA \
-    VP9SecureVdecCA \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
-    libAVCSecureVencCA \
     libbwc \
     libccci_util \
     libgz_gp_client \
     libgz_uree \
-    libhevce_sb.ca7.android \
-    libion_mtk \
-    libion_ulit \
     libipsec_ims_shr \
     libladder \
     libmtkcutils \
     libmtkproperty \
     libmtkrillog \
     libthha \
-    libvcodec_oal \
-    libvcodecdrv_header_stub \
     libverno \
     libwo \
     arm.graphics-V1-ndk_platform \
     libmtk_drvb \
     vendor.mediatek.hardware.videotelephony@1.0 \
-    libHEVCdec_sa.ca7.android \
-    libh264dec_customize \
-    libh264dec_sa.ca7 \
-    libh264dec_sd.ca7 \
-    libh264dec_se.ca7 \
-    libh264enc_sa.ca7 \
-    libmp4enc_sa.ca7 \
-    libmp4enc_xa.ca7 \
     librcs_interface \
     librcs_volte_core \
-    libvcodec_utility_plat.mt6789 \
     libvolte_core_shr \
     libvolte_xdmc_shr \
-    libvp8dec_sa.ca7 \
-    libvp8enc_sa.ca7 \
-    libvp9dec_sa.ca7 \
-    libvcodec_utility \
-    libvcodec_utility_v3a \
-    libvcodecdrv \
-    libvcodecdrv_v3a \
-    libvpudv3a_vcodec \
     vendor.mediatek.hardware.rcs@2.0 \
     APUWareApusysServer \
     APUWareHmpServer \
@@ -458,6 +431,7 @@ PRODUCT_PACKAGES += \
     libgwsdv3-ril \
     libhdrvideo \
     libheichal \
+    libhevce_sb.ca7.android \
     libhfmanager \
     libhfmanagerwrapper \
     libhwm \
@@ -465,6 +439,8 @@ PRODUCT_PACKAGES += \
     libimagebuffer_wrapper \
     libimgsensorca \
     libimsg_log \
+    libion_mtk \
+    libion_ulit \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
@@ -539,6 +515,8 @@ PRODUCT_PACKAGES += \
     libtrm \
     libudf \
     liburee_meta_drmkeyinstall \
+    libvcodec_oal \
+    libvcodecdrv_header_stub \
     libvia-ril \
     libviagpsrpc \
     libviamipc-ril \
@@ -1005,7 +983,6 @@ PRODUCT_PACKAGES += \
     mnld \
     dumpfaultd.mt6789 \
     jpegtool \
-    v3avpud.mt6789 \
     mtk_agpsd \
     netdagent \
     nvram_daemon \
@@ -1026,14 +1003,8 @@ PRODUCT_PACKAGES += \
     vendor_bin_hw_camerahalserver \
     vendor_bin_dumpfaultd_mt6789 \
     vendor_bin_jpegtool \
-    vendor_bin_v3avpud \
     vendor_lib_arm_graphics-V1-ndk_platform_so \
     vendor_lib_libmtk_drvb_so \
-    vendor_lib_libvcodec_utility_so \
-    vendor_lib_libvcodec_utility_v3a_so \
-    vendor_lib_libvcodecdrv_so \
-    vendor_lib_libvcodecdrv_v3a_so \
-    vendor_lib_libvpudv3a_vcodec_so \
     vendor_lib64_egl_libGLES_mali_so \
     vendor_lib64_hw_audio_primary_mt6789_so \
     vendor_lib64_hw_audio_r_submix_mt6789_so \
